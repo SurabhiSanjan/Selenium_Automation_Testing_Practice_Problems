@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <parameter name="browser" value="Firefox"></parameter>
+    <parameter name="browser" value="Chrome"></parameter>
     <test verbose="2" preserve-order="true" name="C:/Users/atulk/IdeaProjects/TestNG-java">
         <classes>
             <class name="com.bridgelabz.FacebookLogin">
@@ -9,15 +9,19 @@
                     <include name="login"/>
                 </methods>
             </class>
-            <class name="com.bridgelabz.LinkedinLogin">
-                <methods>
-                    <include name="login"/>
-                    <include name="signOut"/>
-                </methods>
-            </class>
             <class name="com.bridgelabz.LinkedIn_Robot">
                 <methods>
                     <include name="robot_LinkedIn_Login"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.LinkedinLogin">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.WebinarDataProvider">
+                <methods>
+                    <include name="webinarAutoFill"/>
                 </methods>
             </class>
         </classes>

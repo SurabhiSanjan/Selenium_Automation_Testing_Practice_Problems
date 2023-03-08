@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="C:/Users/atulk/IdeaProjects/TestNG-java(failed)">
+    <classes>
+      <class name="com.bridgelabz.LinkedinLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.bridgelabz.LinkedinLogin -->
+    </classes>
+  </test> <!-- C:/Users/atulk/IdeaProjects/TestNG-java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
